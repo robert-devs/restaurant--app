@@ -115,6 +115,7 @@
 @media screen and (max-width: 1150px) {
   .app__gallery {
     flex-direction: column;
+    overflow: hidden;
   }
 
   .app__gallery-images {
@@ -126,12 +127,14 @@
 @media screen and (max-width: 850px) {
   .app__gallery {
     padding: 4rem 0 4rem 4rem;
+    overflow: hidden;
   }
 }
 
 @media screen and (max-width: 650px) {
   .app__gallery {
     padding: 4rem 0 4rem 2rem;
+    overflow: hidden;
   }
 
   .app__gallery-content {
